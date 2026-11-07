@@ -1,0 +1,16 @@
+{
+  "name": "brunogusta",
+  "owner": {
+    "name": "brunogusta"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by brunogusta"
+  },
+  "plugins": [
+    {
+      "name": "panel",
+      "description": "Side panel for Claude Code in HTML/CSS, drawn inside Ghostty: what Claude touched, GitHub-style diffs and the project tree.",
+      "source": "./"
+    }
+  ]
+}

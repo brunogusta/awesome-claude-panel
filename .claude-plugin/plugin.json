@@ -1,0 +1,43 @@
+{
+  "name": "panel",
+  "version": "0.1.0",
+  "description": "Side panel for Claude Code in HTML/CSS, drawn inside Ghostty: what Claude touched, GitHub-style diffs and the project tree.",
+  "author": {
+    "name": "brunogusta",
+    "url": "https://github.com/brunogusta"
+  },
+  "homepage": "https://github.com/brunogusta/awesome-claude-panel#readme",
+  "repository": "https://github.com/brunogusta/awesome-claude-panel",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "pane",
+    "panel",
+    "diff",
+    "ghostty",
+    "kitty-graphics",
+    "file-tree"
+  ],
+  "userConfig": {
+    "cellWidth": {
+      "type": "number",
+      "title": "Largura da célula",
+      "description": "Largura de uma célula do terminal em pixels. Ajuste se a página sair esticada ou espremida.",
+      "default": 13
+    },
+    "cellHeight": {
+      "type": "number",
+      "title": "Altura da célula",
+      "description": "Altura de uma célula do terminal em pixels. Ajuste se a página sair esticada ou espremida.",
+      "default": 28
+    },
+    "pageScale": {
+      "type": "number",
+      "title": "Escala da página",
+      "description": "Fator de zoom do painel. Valores maiores deixam o texto maior.",
+      "default": 1.3
+    }
+  },
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,5 @@
+name = "Panel"
+defaultTargets = ["Panel"]
+
+[[lean_lib]]
+name = "Panel"

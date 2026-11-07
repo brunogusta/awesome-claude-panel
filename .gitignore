@@ -1,0 +1,9 @@
+*.out
+.DS_Store
+.claude-plugin/types/
+.superpowers/
+formal/lean/.lake/
+formal/tla/*_TTrace_*
+formal/tla/states/
+node_modules/
+states/
